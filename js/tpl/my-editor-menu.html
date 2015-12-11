@@ -1,0 +1,14 @@
+<div class="menu">
+    <div class="btn-group menu-group" data-ng-repeat="group in options.menus" role="group">
+        <button type="button"
+                data-ng-repeat="item in group"
+                class="btn btn-default"
+                data-ng-if="options.commands[item].type == 'button'"
+                data-ng-click="exec(options.commands[item].command)"
+                data-ng-class="{ active: states[options.commands[item].command] }"
+                unselectable="on">
+            <span>{{options.commands[item].title}}</span>
+            <i class="{{options.commands[item].icon}}"></i>
+        </button>
+    </div>
+</div>

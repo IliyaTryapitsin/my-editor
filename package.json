@@ -1,0 +1,44 @@
+{
+  "name": "my-editor",
+  "version": "0.0.1",
+  "description": "Angular WYSIWYG editor",
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "author": "Iliya Tryapitsin",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "bootstrap-sass": "^3.3.5",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.7",
+    "font-awesome": "^4.5.0",
+    "gulp": "^3.9.0",
+    "gulp-batch": "~1.0.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-html2js": "^0.3.1",
+    "gulp-if": "^1.2.5",
+    "gulp-minify": "0.0.5",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-notify": "~2.2.0",
+    "gulp-ruby-sass": "~1.4.0",
+    "gulp-uglify": "^1.4.0",
+    "gulp-watch": "~4.3.5",
+    "jasmine-node": "^1.14.5",
+    "jsondiffpatch": "^0.1.37",
+    "mocha": "^2.3.3",
+    "yargs": "^3.23.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "wysiwyg",
+    "editor"
+  ]
+}
