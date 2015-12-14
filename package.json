@@ -1,10 +1,10 @@
 {
   "name": "my-editor",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Angular WYSIWYG editor",
   "repository": {
     "type": "git",
-    "url": ".git"
+    "url": "https://github.com/itryapitsin/my-editor.git"
   },
   "author": "Iliya Tryapitsin",
   "license": "ISC",
@@ -32,7 +32,7 @@
     "mocha": "^2.3.3",
     "yargs": "^3.23.0"
   },
-  "main": "index.js",
+  "main": "js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
